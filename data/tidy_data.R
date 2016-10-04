@@ -26,7 +26,10 @@ march2016 <- read_csv("data/March 2016.csv", col_types = cols(
 # Merge data --------------------------------------------------------------
 
 lpf <- bind_rows(march2014, march2015, march2016) %>% 
-  arrange(asset_name, date)
+  arrange(asset_name, date) %>% 
+  mutate(holding_value = market_value/holding)
+
+lpf$holding_value <- round(lpf$holding_value, 3)
 
 # Tidy up -----------------------------------------------------------------
 rm(march2014, march2015, march2016)
