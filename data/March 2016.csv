@@ -121,7 +121,7 @@ Equities,CENTERPOINT ENERGY INC COM,256300,3730464,No,No,No,No
 Equities,CENTRAL JAPAN RLWY NPV,9200,1131311,No,No,No,No
 Equities,CENTRICA ORD GBP0.061728395,5082341,11567408,No,Yes,No,No
 Equities,CF INDS HLDGS INC COM,102200,2226315,No,No,No,No
-Equities,CHEVRON CORP COM,36900,2448961,No,yes,No,No
+Equities,CHEVRON CORP COM,36900,2448961,No,Yes,No,No
 Equities,CHINA CONSTRUCTION BANK'H'CNY1,30722000,13613206,No,No,No,No
 Equities,CHINA MOBILE LTD HKD0.10,3452382,26771200,No,No,No,No
 Equities,CHINA STEEL CORP TWD10,11623000,5615757,No,No,No,No
@@ -195,7 +195,7 @@ Equities,EMC CORP COM,228999,4246033,No,No,No,No
 Equities,EMERA INC COM NPV,539061,13758690,No,No,No,No
 Equities,EMIS GROUP PLC ORD GBP0.01,17326,175686,No,No,No,No
 Equities,EMPIRE CO CLASS'A'N/VTG COM NPV,252000,3048547,No,No,No,No
-Equities,ENAGAS SA EUR1.50,827665,17330415,No,No,No,No
+Equities,ENAGAS SA EUR1.50,827665,17330415,No,Yes,No,No
 Equities,ENBRIDGE INC COM NPV,146600,3983037,No,No,No,No
 Equities,ENGIE COMSTK,65486,708188,No,No,No,No
 Equities,ENI SPA EUR1,1151857,12136949,No,Yes,No,No
@@ -252,7 +252,7 @@ Equities,HICL INFRASTRUCTURE COMPANY LIMITED ORD GBP0.0001,15919994,25344630,No,
 Equities,HIROSE ELECTRIC NPV,35840,2746593,No,No,No,No
 Equities,HON HAI PRECISION TWD10,7526618,13781480,No,No,No,No
 Equities,HONEYWELL INTL INC COM STK,174772,13626210,No,No,Yes,No
-Equities,HONG KONG & CHINA GAS HKD0.25,3084290,4005971,No,No,No,No
+Equities,HONG KONG & CHINA GAS HKD0.25,3084290,4005971,No,Yes,No,No
 Equities,HORMEL FOODS CORP COM,267000,8030620,No,No,No,No
 Equities,HOWARD HUGHES CORP COM STOCK,5810,427837,No,No,No,No
 Equities,HOWDEN JOINERY GR ORD GBP0.10,780000,3728400,No,No,No,No
@@ -337,7 +337,7 @@ Equities,MYRIAD GENETICS INC COM,50473,1314412,No,No,No,No
 Equities,NABORS INDUSTRIES COM USD0.10,161200,1031824,No,No,No,No
 Equities,NASPERS 'N' ZAR0.02,33423,3257665,No,No,No,No
 Equities,NATIONAL GRID ORD GBP0.113953,473791,4675843,No,No,No,No
-Equities,NATIONAL OILWELL VARCO COM STK,135300,2927594,No,No,No,No
+Equities,NATIONAL OILWELL VARCO COM STK,135300,2927594,No,Yes,No,No
 Equities,NATL BK OF CANADA COM NPV,222974,5088974,No,No,No,No
 Equities,NESTLE SA CHF0.10(REGD),346316,18077780,No,No,No,No
 Equities,NEXT ORD GBP0.10,201613,10877021,No,No,No,No
@@ -359,7 +359,7 @@ Equities,OMRON CORP NPV,193800,4006875,No,No,No,No
 Equities,OMV AG NPV,62337,1224216,No,Yes,No,No
 Equities,ONESAVINGS BANK PL ORD GBP0.01,325000,1074775,No,No,No,No
 Equities,ORACLE CORP COM,332279,9457688,No,No,No,No
-Equities,OSAKA GAS CO LTD NPV,1716000,4584630,No,No,No,No
+Equities,OSAKA GAS CO LTD NPV,1716000,4584630,No,Yes,No,No
 Equities,OVERSEA-CHINESE BANKING CORPORATION SGD0.5,840437,3838587,No,No,No,No
 Equities,PADDY POWER ORD EUR0.09,42434,4118220,No,No,No,No
 Equities,PAN AFRICAN RES ORD GBP0.01,2600000,351000,No,No,No,No
@@ -373,8 +373,8 @@ Equities,PEPSICO INC COM,334577,23857788,No,No,No,No
 Equities,PERNOD RICARD NPV EUR 1.55,56000,4351110,No,No,No,No
 Equities,PERSIMMON ORD GBP0.10,589006,12274885,No,No,No,No
 Equities,PETRA DIAMONDS ORD GBP0.10 (DI),1180647,1242631,No,No,No,No
-Equities,PETROFAC ORD USD0.02,251552,2315536,No,No,No,No
-Equities,PFIZER INC COM,1246882,25695852,No,No,No,No
+Equities,PETROFAC ORD USD0.02,251552,2315536,No,Yes,No,No
+Equities,PFIZER INC COM,1246882,25695852,No,f,No,No
 Equities,PG& E CORP COM,251331,10444585,No,No,No,No
 Equities,PINNACLE W. CAP CORP COM,113100,5906412,No,No,No,No
 Equities,PLAYTECH PLC ORD NPV,1177087,10175917,No,No,No,No
@@ -445,7 +445,7 @@ Equities,SCHNEIDER ELECTRIC EUR4.00,349519,15390851,No,No,No,No
 Equities,SCRIPPS NETWORKS INTERACTIVE INC CL A COM STK,26219,1194658,No,No,No,No
 Equities,SEATTLE GENETICS INC COM,33141,808868,No,No,No,No
 Equities,SECOM CO NPV,97200,5033126,No,No,No,No
-Equities,SEMPRA ENERGY INC COM STK,67900,4915463,No,No,No,No
+Equities,SEMPRA ENERGY INC COM STK,67900,4915463,No,Yes,No,No
 Equities,SES FDR EACH REP 1 'A' NPV,227000,4629853,No,No,No,No
 Equities,SGS SA CHF1 (REGD),2657,3918622,No,No,No,No
 Equities,SHAW COMMUNICATION 'B'CNV NPV,2335496,31482060,No,No,No,No
@@ -465,8 +465,8 @@ Equities,SMUCKER J M CO COM NEW,56900,5140517,No,No,No,No
 Equities,SNAM NPV,1316466,5730176,No,No,No,No
 Equities,SODEXHO EUR4,59744,4487595,No,No,No,No
 Equities,SONOCO PROD CO COM,403626,13625503,No,No,No,No
-Equities,SOUTHERN CO COM STK,201215,7239149,No,No,No,No
-Equities,SPECTRA ENERGY CORP COM STK,178500,3800251,No,No,No,No
+Equities,SOUTHERN CO COM STK,201215,7239149,No,Yes,No,No
+Equities,SPECTRA ENERGY CORP COM STK,178500,3800251,No,Yes,No,No
 Equities,SPECTRIS ORD GBP0.05,89796,1654940,No,No,No,No
 Equities,SSE PLC ORD GBP0.50,1272997,18980385,No,No,No,No
 Equities,SSGA MPF EQUITY INDEX,2639786,10059961,No,No,No,No
@@ -512,7 +512,7 @@ Equities,THERMO FISHER CORP,5598,551270,No,No,No,No
 Equities,THK CO LTD NPV,58000,744274,No,No,No,No
 Equities,THOMSON-REUTERS CP COM NPV,161100,4555504,No,No,No,No
 Equities,TOBU RAILWAY CO Y50,1229000,4260352,No,No,No,No
-Equities,TOKYO GAS CO LTD NPV,1745000,5658047,No,No,No,No
+Equities,TOKYO GAS CO LTD NPV,1745000,5658047,No,Yes,No,No
 Equities,TONEN GEN SEKIYU NPV,621000,3913317,No,No,No,No
 Equities,TORCHMARK CORP COM,106000,3993530,No,No,No,No
 Equities,TORONTO-DOMINION COM NPV,134000,4037856,No,No,No,No
@@ -601,69 +601,69 @@ Fixed Income,UK(GOVT OF) 0.125% IDX LKD 22/03/24 GBP,4830000,5696544,No,No,No,No
 Fixed Income,UNITED KINGDOM(GOVERNMENT OF) 1.25% IDX/LKD STK 22/11/17,9600000,13450327,No,No,No,No
 Real Estate,SCHRODER UNIT TST UK REAL ESTATE SREF I INC,187080,7788124,No,No,No,No
 Commodities,ETFS METAL SECURIT ETFS PHYSICAL GOLD (USD),205000,17019865,No,No,No,No
-Real Estate,Standard Life Property,-,459943566,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",3i India Infrastructure C,-,20872470,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Actis Emerging Markets 3,-,10436235,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Actis IV,-,13914980,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Alinda Fund I,-,9484287,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Alinda Fund II,-,13159285,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Ancala Renewables II L.P.,-,13875000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Ancala Renewables, L.P.",-,23049108,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Arcus European Infrastructure Fund 1 L.P.,-,15343626,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Astorg IV,-,7928408,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Carlyle Europe Real Estate Master Co-Investment III LP,-,25000000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Carlyle Infrastructure Partners,-,20872470,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Cobalt Project Investments, L.P.",-,15000000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Crimson Project Investments L.P.,-,9510000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","CVC Capital Partners Asia Pacific III, L.P.",-,13914980,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Dalmore Capital Fund,-,25000000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Dalmore Infrastructure Investment L.P.,-,22500000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",DeAWM PEIF II,-,12685452,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",EISER GIF (Global Infrastructure Fund),-,12636296,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Clean Energy Fund LP,-,11892611,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Property Growth Fund,-,23785223,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Strategic Partners 2008 'A',-,11892611,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Strategic Partners II 'D',-,17125360,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","European Strategic Partners, 2000 'C'",-,14429702,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",FIM Wind Energy L.P.,-,9112500,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","GFP New Zealand Properties III, LLC",-,5734735,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Global Rights Fund II, L.P.",-,4174494,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GMO Forestry Fund 9,-,17393725,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GS Vintage IV,-,24351215,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GS Vintage V,-,12175607,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GTI 7 Institutional Investors Co. Ltd,-,16971221,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Hg RPP2 (Hg Capital Renewable Power Partners 2),-,11892611,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Highstar Capital III Prism Fund,-,5546583,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Infracapital Partners,-,2898728,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",KKR 2006 Fund (Overseas) LTD,-,31308705,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","KKR Atlanta Co-Invest, L.P.",-,10161668,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","KKR European Infrastructure Investors II, L.P.",-,19821019,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",KKR European Infrastructure Ltd,-,19821019,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","KKR Selena Co-Invest, L.P.",-,20100000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Macquarie European Infrastructure Fund IV, L.P.",-,11892611,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Macquarie Infrastructure Partners,-,41672696,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",MEIF Macquarie European Infrastructure Fund,-,35664601,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",MEIF2 Macquarie European Infrastructure Fund II,-,33336309,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",NIBC Infrastructure Partners I BV,-,9253722,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",NZ One Investors Co. Ltd,-,3749876,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Pantheon Asia Fund IV Ltd.,-,16697976,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Partners Group PMCS S.A - Compartment 2015 VI,-,27000000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Partners Group Secondary 2008 SCA SICAR,-,11892611,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Permira Credit Solutions II Senior (Feeder) L.P.,-,24000000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PG Global Real Estate 2008,-,14910060,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV Co-Investment,-,6818340,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV Non-US Buyout,-,5690877,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV Secondary,-,4908893,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV US Buyout,-,22008474,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV US Venture,-,12245182,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP V US Small-Mid Buyouts,-,13914980,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP V US Venture,-,20872470,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Pinebridge PEP V Asia,-,12421590,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","RII World Timberfund LLC, Inc",-,20799024,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",RREEF Pan-European Infrastructure Fund,-,28231612,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Scottish Equity Partnership II,-,8850000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Scottish Equity Partnership III,-,8000000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Scottish Equity Partnership IV,-,10000000,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Silver Lake Partners III,-,13915009,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Stafford Elm Inc,-,34787449,No,No,No,No
-"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Stafford Shiloh LP,-,17393725,No,No,No,No
+Real Estate,Standard Life Property,,459943566,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",3i India Infrastructure C,,20872470,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Actis Emerging Markets 3,,10436235,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Actis IV,,13914980,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Alinda Fund I,,9484287,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Alinda Fund II,,13159285,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Ancala Renewables II L.P.,,13875000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Ancala Renewables, L.P.",,23049108,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Arcus European Infrastructure Fund 1 L.P.,,15343626,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Astorg IV,,7928408,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Carlyle Europe Real Estate Master Co-Investment III LP,,25000000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Carlyle Infrastructure Partners,,20872470,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Cobalt Project Investments, L.P.",,15000000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Crimson Project Investments L.P.,,9510000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","CVC Capital Partners Asia Pacific III, L.P.",,13914980,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Dalmore Capital Fund,,25000000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Dalmore Infrastructure Investment L.P.,,22500000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",DeAWM PEIF II,,12685452,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",EISER GIF (Global Infrastructure Fund),,12636296,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Clean Energy Fund LP,,11892611,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Property Growth Fund,,23785223,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Strategic Partners 2008 'A',,11892611,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",European Strategic Partners II 'D',,17125360,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","European Strategic Partners, 2000 'C'",,14429702,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",FIM Wind Energy L.P.,,9112500,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","GFP New Zealand Properties III, LLC",,5734735,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Global Rights Fund II, L.P.",,4174494,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GMO Forestry Fund 9,,17393725,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GS Vintage IV,,24351215,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GS Vintage V,,12175607,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",GTI 7 Institutional Investors Co. Ltd,,16971221,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Hg RPP2 (Hg Capital Renewable Power Partners 2),,11892611,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Highstar Capital III Prism Fund,,5546583,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Infracapital Partners,,2898728,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",KKR 2006 Fund (Overseas) LTD,,31308705,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","KKR Atlanta Co-Invest, L.P.",,10161668,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","KKR European Infrastructure Investors II, L.P.",,19821019,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",KKR European Infrastructure Ltd,,19821019,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","KKR Selena Co-Invest, L.P.",,20100000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","Macquarie European Infrastructure Fund IV, L.P.",,11892611,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Macquarie Infrastructure Partners,,41672696,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",MEIF Macquarie European Infrastructure Fund,,35664601,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",MEIF2 Macquarie European Infrastructure Fund II,,33336309,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",NIBC Infrastructure Partners I BV,,9253722,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",NZ One Investors Co. Ltd,,3749876,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Pantheon Asia Fund IV Ltd.,,16697976,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Partners Group PMCS S.A - Compartment 2015 VI,,27000000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Partners Group Secondary 2008 SCA SICAR,,11892611,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Permira Credit Solutions II Senior (Feeder) L.P.,,24000000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PG Global Real Estate 2008,,14910060,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV Co-Investment,,6818340,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV Non-US Buyout,,5690877,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV Secondary,,4908893,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV US Buyout,,22008474,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP IV US Venture,,12245182,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP V US Small-Mid Buyouts,,13914980,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",PineBridge PEP V US Venture,,20872470,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Pinebridge PEP V Asia,,12421590,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate","RII World Timberfund LLC, Inc",,20799024,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",RREEF Pan-European Infrastructure Fund,,28231612,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Scottish Equity Partnership II,,8850000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Scottish Equity Partnership III,,8000000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Scottish Equity Partnership IV,,10000000,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Silver Lake Partners III,,13915009,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Stafford Elm Inc,,34787449,No,No,No,No
+"Private Equity, Private Debt,Infrastructure, Timber and RealEstate",Stafford Shiloh LP,,17393725,No,No,No,No
