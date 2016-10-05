@@ -1,0 +1,34 @@
+---
+title: "Lothian Pension Fund Investments in Fossil Fuels"
+author: "Divest Lothian"
+date: "5 October 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(dplyr)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+load("data/lpf.Rdata")
+lpf_coal <- filter(lpf, coal == "Yes")
+lpf_oil_gas <- filter(lpf, oil_gas == "Yes")
+
+```
+
+# Size of fund by year
+
+```{r fund_size}
+
+fund_size <- aggregate(formula = market_value ~ date, data = lpf,  FUN = sum)
+coal_size <- aggregate(formula = market_value ~ date, data = lpf_coal, FUN = sum)
+oil_gas_size <- aggregate(formula = market_value ~ date, data = lpf_oil_gas, FUN = sum)
+
+table <- bind_cols(fund_size, coal_size, oil_gas_size)
+
+kable(table, format.args = list(big.mark = ","))
+```
+
+
+
