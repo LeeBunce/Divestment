@@ -31,5 +31,7 @@ lpf <- bind_rows(march2014, march2015, march2016) %>%
 
 lpf$holding_value <- round(lpf$holding_value, 3)
 
+save(lpf, file = "data/lpf.Rdata")
+
 # Tidy up -----------------------------------------------------------------
-rm(march2014, march2015, march2016)
+rm(march2014, march2015, march2016, lpf)
