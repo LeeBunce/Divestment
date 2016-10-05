@@ -29,9 +29,11 @@ lpf <- bind_rows(march2014, march2015, march2016) %>%
   arrange(asset_name, date) %>% 
   mutate(holding_value = market_value/holding)
 
-lpf$holding_value <- round(lpf$holding_value, 3)
+lpf <- mutate(lpf, fossil_fuel = ifelse((coal == "Yes" | oil_gas == "Yes"), "Yes", "No"))
 
-save(lpf, file = "data/lpf.Rdata")
+lpf$holding_value <- round(lpf$holding_value, 3)
+              
+              save(lpf, file = "data/lpf.Rdata")
 
 # Tidy up -----------------------------------------------------------------
 rm(march2014, march2015, march2016, lpf)
