@@ -10,8 +10,9 @@ library(knitr)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(scales)
 
-knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+knitr::opts_chunk$set(echo = FALSE, fig.align="center")
 
 load("data/lpf.Rdata")
 lpf_coal <- filter(lpf, coal == "Yes")
@@ -22,10 +23,10 @@ lpf_fossil_fuel <- filter(lpf, fossil_fuel == "Yes")
 
 # Size of fund by year
 
-This section shows how the value of fossil fuels as a proportion of the value of the fund has declined in recent years.
+This section shows how the value of fossil fuels as a proportion of the value of the fund has declined in recent years. In particular it shows that that while the total value of the fund has grown, the value of its fossil fuel investments has fallen, meaning they make up a much smaller propertion of the funds total value.
 
 ```{r fund_size}
-
+# Prep
 fund_size <- aggregate(formula = market_value ~ date, data = lpf,  FUN = sum) %>% rename(Total = market_value)
 
 coal_size <- aggregate(formula = market_value ~ date, data = lpf_coal, FUN = sum) %>% rename(Coal = market_value)
@@ -39,19 +40,26 @@ table <- left_join(fund_size, coal_size, by = "date") %>%
   left_join(fossil_fuel_size, by = "date") %>% 
   mutate(`Coal %` = round((Coal/Total)*100, 1)) %>% 
   mutate(`Oil and Gas %` = round((`Oil and Gas`/Total)*100, 1)) %>% 
-  mutate(`Fossil Fuel %` = round((`All Fossil Fuels`/Total)*100, 1))
+  mutate(`All Fossil Fuels %` = round((`All Fossil Fuels`/Total)*100, 1))
 
 plot_table <- gather(table, investment_group, value,  Coal:`All Fossil Fuels`)
 
+## Plot
 ggplot(data = plot_table, aes(x = date, y = value, colour = investment_group)) +
   geom_point() +
   geom_line(aes(group = investment_group)) +
-  ggtitle("How the value of Lothan Pension Fund Fossil Fuel Investments are falling")
+  #ylim(0, 350000000) +
+  scale_y_continuous(labels = comma, limits = c(0, 350000000), breaks = seq(0, 350000000, 50000000)) +
+  ggtitle("How the value of Lothan Pension Fund fossil fuel investments are falling") +
+  ylab("Value (£)")
 
+## Table
+names(table)[1] <- "Date"
 kable(table, format.args = list(big.mark = ","))
 
 rm(fund_size, coal_size, oil_gas_size, fossil_fuel_size, table, plot_table)
 ```
+
 # A closer look at particular investments
 
 This section looks at the particular investments the fund has in fossil fuels. It shows that the value of particular investments has fallen, in some cases quite significantly.
@@ -65,7 +73,8 @@ holdings <- function(data, d){
   names(table) <- c("asset_name",
                    paste(d, "holding"),
                    paste(d, "market_value"),
-                   paste(d, "holdng_value"))
+                   paste(d, "holdng_value"),
+                   "date")
   
   table
 }
@@ -75,6 +84,20 @@ ff2015 <- holdings(lpf, d = "2015-03-31")
 ff2016 <- holdings(lpf, d = "2016-03-31")
 
 ff <- left_join(ff2014, ff2015, by = "asset_name") %>% 
-  left_join(ff2016, by = "asset_name")
+  left_join(ff2016, by = "asset_name") %>% 
+  select(-date.x, -date.y, -date)
 
-```
+names(ff)= c("Asset",
+             "2014 Holding",
+             "2014 Market Value (£)",
+             "2014 Holding Value (£)",
+             "2015 Holding",
+             "2015 Market Value (£)",
+             "2015 Holding Value (£)",
+             "2016 Holding",
+             "2016 Market Value (£)",
+             "2016 Holding Value (£)")
+
+kable(ff)
+
+rm(ff2014, ff2015, ff2016, ff)
